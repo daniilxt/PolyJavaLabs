@@ -1,5 +1,7 @@
 import java.util.concurrent.BlockingQueue;
 
+import static java.lang.Thread.sleep;
+
 public class Robot implements Runnable {
     private final BlockingQueue<Student> studentsQueue;
     private final Subjects handleType;
@@ -11,13 +13,16 @@ public class Robot implements Runnable {
     }
 
     private void handle() throws InterruptedException {
-        if (!studentsQueue.isEmpty() && (studentsQueue.peek().getSubject().equals(handleType))) {
-            Student student = studentsQueue.take();
-            System.out.println(String.format("I Robot : %s i catch student with ID :%d and handle his\n", handleType.toString(), student.getID()));
+        if (!studentsQueue.isEmpty() && (studentsQueue.peek() != null)) {
+            if (studentsQueue.peek().getSubject() == handleType) {
+                Student student = studentsQueue.take();
+                System.out.println(String.format("I Robot : %s i catch student with ID :%d and handle his\n", handleType.toString(), student.getID()));
 
-            int countForHandle = student.getLabsCount();
-            Thread.sleep(DELAY * countForHandle / 5);
-            System.out.println(String.format("I Robot : %s i finished checking with ID : %d\n", handleType.toString(), student.getID()));
+                int countForHandle = student.getLabsCount();
+                sleep(DELAY * countForHandle / 5);
+                System.out.println(String.format("I Robot : %s i finished checking with ID : %d\n", handleType.toString(), student.getID()));
+            }
+
         }
     }
 

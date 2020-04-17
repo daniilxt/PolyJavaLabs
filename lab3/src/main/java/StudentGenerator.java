@@ -25,8 +25,8 @@ public class StudentGenerator implements Runnable {
             while (true) {
                 generateStudent();
                 Student student = new Student(labsCount, typeOfSubject);
-                studentsQueue.put(student);
-                System.out.println(String.format("Created student with ID: %d with subject: %s and count of labs: %d  \n",student.getID() , typeOfSubject.toString(), labsCount));
+                    studentsQueue.put(student);
+                System.out.println(String.format("Created student with ID: %d with subject: %s and count of labs: %d  \n", student.getID(), typeOfSubject.toString(), labsCount));
             }
         } catch (InterruptedException ex) {
             System.out.println(ex.getMessage());
