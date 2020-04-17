@@ -1,13 +1,8 @@
-import javax.swing.*;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 public class Main {
     public static void main(String[] args) {
-/*        Simulator simulator = new Simulator();
-        simulator.generate(5,5);*/
 
         BlockingQueue<Student> studentsQueue = new ArrayBlockingQueue<>(5);
         StudentGenerator generator = new StudentGenerator(studentsQueue);

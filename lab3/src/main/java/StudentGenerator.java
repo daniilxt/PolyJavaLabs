@@ -16,28 +16,6 @@ public class StudentGenerator implements Runnable {
         CountTasks typeOfLab = CountTasks.values()[generatedLabsCount];
         labsCount = typeOfLab.getValue();
         typeOfSubject = Subjects.values()[generatedSubjectNum];
-/*        while (true) {
-            locker.lock();
-
-            try {
-                while (studentsQueue.remainingCapacity() == 0) {
-                    condition.await();
-                }
-
-                studentsQueue.add(new Student(number[(int) (Math.random() * 3) + 1], subject[(int) (Math.random() * 3) + 1]));
-
-                condition.signalAll();
-            } catch (InterruptedException ex) {
-                System.out.println(ex.getMessage());
-            } finally {
-                locker.unlock();
-            }
-        }
-        try {
-            studentsQueue.put(new Student(labsCount, typeOfSubject));
-        } catch (InterruptedException ex) {
-            ex.printStackTrace();
-        }*/
 
     }
 
