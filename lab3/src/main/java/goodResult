@@ -1,0 +1,226 @@
+> Task :Main.main()
+Created student with ID: 1 with subject: MATH and count of labs: 20
+
+I Robot : MATH i catch student with ID :1 and handle his
+
+I Robot : PHYSICS i catch student with ID :2 and handle his
+
+Created student with ID: 2 with subject: PHYSICS and count of labs: 100
+
+Created student with ID: 3 with subject: OOP and count of labs: 10
+
+I Robot : OOP i catch student with ID :3 and handle his
+
+Created student with ID: 4 with subject: OOP and count of labs: 100
+
+Created student with ID: 5 with subject: MATH and count of labs: 20
+
+Created student with ID: 6 with subject: OOP and count of labs: 100
+
+Created student with ID: 7 with subject: OOP and count of labs: 20
+
+Created student with ID: 8 with subject: MATH and count of labs: 10
+
+I Robot : OOP i finished checking with ID : 3
+
+I Robot : OOP i catch student with ID :4 and handle his
+
+Created student with ID: 9 with subject: OOP and count of labs: 100
+
+I Robot : MATH i finished checking with ID : 1
+
+I Robot : MATH i catch student with ID :5 and handle his
+
+Created student with ID: 10 with subject: MATH and count of labs: 10
+
+I Robot : MATH i finished checking with ID : 5
+
+I Robot : PHYSICS i finished checking with ID : 2
+
+I Robot : OOP i finished checking with ID : 4
+
+Created student with ID: 11 with subject: PHYSICS and count of labs: 10
+
+I Robot : OOP i catch student with ID :6 and handle his
+
+I Robot : OOP i finished checking with ID : 6
+
+I Robot : OOP i catch student with ID :7 and handle his
+
+I Robot : MATH i catch student with ID :8 and handle his
+
+Created student with ID: 12 with subject: PHYSICS and count of labs: 20
+
+Created student with ID: 13 with subject: PHYSICS and count of labs: 20
+
+I Robot : MATH i finished checking with ID : 8
+
+I Robot : OOP i finished checking with ID : 7
+
+I Robot : OOP i catch student with ID :9 and handle his
+
+Created student with ID: 14 with subject: PHYSICS and count of labs: 20
+
+I Robot : MATH i catch student with ID :10 and handle his
+
+I Robot : PHYSICS i catch student with ID :11 and handle his
+
+Created student with ID: 15 with subject: PHYSICS and count of labs: 20
+
+Created student with ID: 16 with subject: MATH and count of labs: 100
+
+I Robot : MATH i finished checking with ID : 10
+
+I Robot : PHYSICS i finished checking with ID : 11
+
+I Robot : PHYSICS i catch student with ID :12 and handle his
+
+Created student with ID: 17 with subject: OOP and count of labs: 100
+
+I Robot : PHYSICS i finished checking with ID : 12
+
+I Robot : PHYSICS i catch student with ID :13 and handle his
+
+Created student with ID: 18 with subject: MATH and count of labs: 100
+
+I Robot : PHYSICS i finished checking with ID : 13
+
+I Robot : PHYSICS i catch student with ID :14 and handle his
+
+Created student with ID: 19 with subject: MATH and count of labs: 10
+
+I Robot : PHYSICS i finished checking with ID : 14
+
+I Robot : PHYSICS i catch student with ID :15 and handle his
+
+Created student with ID: 20 with subject: MATH and count of labs: 20
+
+I Robot : MATH i catch student with ID :16 and handle his
+
+Created student with ID: 21 with subject: OOP and count of labs: 100
+
+I Robot : PHYSICS i finished checking with ID : 15
+
+I Robot : OOP i finished checking with ID : 9
+
+I Robot : OOP i catch student with ID :17 and handle his
+
+Created student with ID: 22 with subject: OOP and count of labs: 100
+
+I Robot : MATH i finished checking with ID : 16
+
+I Robot : MATH i catch student with ID :18 and handle his
+
+Created student with ID: 23 with subject: MATH and count of labs: 10
+
+I Robot : OOP i finished checking with ID : 17
+
+I Robot : MATH i finished checking with ID : 18
+
+I Robot : MATH i catch student with ID :19 and handle his
+
+Created student with ID: 24 with subject: PHYSICS and count of labs: 10
+
+I Robot : MATH i finished checking with ID : 19
+
+I Robot : MATH i catch student with ID :20 and handle his
+
+Created student with ID: 25 with subject: OOP and count of labs: 10
+
+I Robot : OOP i catch student with ID :21 and handle his
+
+Created student with ID: 26 with subject: OOP and count of labs: 20
+
+I Robot : MATH i finished checking with ID : 20
+
+I Robot : OOP i finished checking with ID : 21
+
+I Robot : OOP i catch student with ID :22 and handle his
+
+I Robot : MATH i catch student with ID :23 and handle his
+
+I Robot : PHYSICS i catch student with ID :24 and handle his
+
+Created student with ID: 27 with subject: PHYSICS and count of labs: 10
+
+Created student with ID: 28 with subject: PHYSICS and count of labs: 10
+
+Created student with ID: 29 with subject: MATH and count of labs: 20
+
+I Robot : PHYSICS i finished checking with ID : 24
+
+I Robot : MATH i finished checking with ID : 23
+
+I Robot : OOP i finished checking with ID : 22
+
+I Robot : OOP i catch student with ID :25 and handle his
+
+Created student with ID: 30 with subject: PHYSICS and count of labs: 20
+
+I Robot : OOP i finished checking with ID : 25
+
+I Robot : OOP i catch student with ID :26 and handle his
+
+I Robot : PHYSICS i catch student with ID :27 and handle his
+
+Created student with ID: 31 with subject: OOP and count of labs: 10
+
+Created student with ID: 32 with subject: PHYSICS and count of labs: 100
+
+I Robot : PHYSICS i finished checking with ID : 27
+
+I Robot : MATH i catch student with ID :29 and handle his
+
+I Robot : PHYSICS i catch student with ID :28 and handle his
+
+Created student with ID: 33 with subject: MATH and count of labs: 20
+
+Created student with ID: 34 with subject: PHYSICS and count of labs: 10
+
+I Robot : OOP i finished checking with ID : 26
+
+I Robot : PHYSICS i finished checking with ID : 28
+
+I Robot : OOP i catch student with ID :31 and handle his
+
+I Robot : PHYSICS i catch student with ID :30 and handle his
+
+Created student with ID: 35 with subject: PHYSICS and count of labs: 100
+
+Created student with ID: 36 with subject: PHYSICS and count of labs: 10
+
+I Robot : MATH i finished checking with ID : 29
+
+I Robot : OOP i finished checking with ID : 31
+
+I Robot : PHYSICS i finished checking with ID : 30
+
+I Robot : PHYSICS i catch student with ID :32 and handle his
+
+I Robot : MATH i catch student with ID :33 and handle his
+
+Created student with ID: 37 with subject: PHYSICS and count of labs: 20
+
+Created student with ID: 38 with subject: MATH and count of labs: 10
+
+I Robot : MATH i finished checking with ID : 33
+
+I Robot : PHYSICS i finished checking with ID : 32
+
+I Robot : PHYSICS i catch student with ID :34 and handle his
+
+Created student with ID: 39 with subject: MATH and count of labs: 100
+
+I Robot : PHYSICS i finished checking with ID : 34
+
+I Robot : PHYSICS i catch student with ID :35 and handle his
+
+Created student with ID: 40 with subject: MATH and count of labs: 20
+
+
+> Task :Main.main() FAILED
+
+Execution failed for task ':Main.main()'.
+> Process 'command '/usr/lib/jvm/jdk-13/bin/java'' finished with non-zero exit value 143
+
+
