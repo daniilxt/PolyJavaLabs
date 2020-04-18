@@ -1,15 +1,15 @@
 public enum CountTasks {
-    MIN(10),
-    MIDDLE(20),
-    MAX(100);
+  MIN(10),
+  MIDDLE(20),
+  MAX(100);
 
-    CountTasks(int value) {
-        this.value = value;
-    }
+  CountTasks(int value) {
+    this.value = value;
+  }
 
-    private final int value;
+  private final int value;
 
-    public int getValue() {
-        return value;
-    }
+  public int getValue() {
+    return value;
+  }
 }
