@@ -5,7 +5,7 @@ import java.util.concurrent.BlockingQueue;
 public class Main {
     public static void main(String[] args) {
 
-        BlockingQueue<Student> studentsQueue = new ArrayBlockingQueue<>(5);
+        BlockingQueue<Student> studentsQueue = new ArrayBlockingQueue<>(10);
         StudentGenerator generator = new StudentGenerator(studentsQueue);
 
         Robot robotOOP = new Robot("MATH", studentsQueue);
