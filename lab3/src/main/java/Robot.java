@@ -1,4 +1,5 @@
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.locks.ReentrantLock;
 
 import static java.lang.Thread.sleep;
 
@@ -12,28 +13,27 @@ public class Robot implements Runnable {
         this.studentsQueue = studentsQueue;
     }
 
-    private void handle() throws InterruptedException {
-        if (!studentsQueue.isEmpty() && (studentsQueue.peek() != null)) {
-            if (studentsQueue.peek().getSubject() == handleType) {
-                Student student = studentsQueue.take();
-                System.out.println(String.format("I Robot : %s i catch student with ID :%d and handle his\n", handleType.toString(), student.getID()));
+    private void handle() {
+        try {
+            if (!studentsQueue.isEmpty() && (studentsQueue.peek() != null)) {
+                if (studentsQueue.peek().getSubject() == handleType) {
+                    Student student = studentsQueue.take();
+                    System.out.println(String.format("I Robot : %s i catch student with ID :%d and handle his\n", handleType.toString(), student.getID()));
 
-                int countForHandle = student.getLabsCount();
-                sleep(DELAY * countForHandle / 5);
-                System.out.println(String.format("I Robot : %s i finished checking with ID : %d\n", handleType.toString(), student.getID()));
+                    int countForHandle = student.getLabsCount();
+                    sleep(DELAY * countForHandle / 5);
+                    System.out.println(String.format("I Robot : %s i finished checking with ID : %d\n", handleType.toString(), student.getID()));
+                }
             }
-
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
     @Override
     public void run() {
         while (true) {
-            try {
-                handle();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            handle();
         }
     }
 }
